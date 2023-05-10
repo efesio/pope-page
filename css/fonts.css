@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'cinzelRegular';
+    src: url(/assets/fonts/CinzelDecorative-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'cinzelBold';
+    src: url(/assets/fonts/CinzelDecorative-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'cinzelBlack';
+    src: url(/assets/fonts/CinzelDecorative-Black.ttf);
+}
+
+@font-face {
+    font-family: 'sourceSansBlack';
+    src: url(/assets/fonts/SourceSansPro-Black.ttf);
+}
+
+@font-face {
+    font-family: 'sourceSansBold';
+    src: url(/assets/fonts/CinzelDecorative-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'sourceSansLight';
+    src: url(/assets/fonts/SourceSansPro-Light.ttf);
+}
+
+@font-face {
+    font-family: 'sourceSansBlackItalic';
+    src: url(/assets/fonts/SourceSansPro-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: 'sourceSansItalic';
+    src: url(/assets/fonts/SourceSansPro-Italic.ttf);
+}
+
+section{
+    font-family:'sourceSansBlackItalic' ;
+}
+
+

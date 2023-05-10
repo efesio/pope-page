@@ -1,0 +1,337 @@
+@font-face {
+    font-family: 'cinzelRegular';
+    src: url(/assets/fonts/CinzelDecorative-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'cinzelBold';
+    src: url(/assets/fonts/CinzelDecorative-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'cinzelBlack';
+    src: url(/assets/fonts/CinzelDecorative-Black.ttf);
+}
+
+@font-face {
+    font-family: 'sourceSansBlack';
+    src: url(/assets/fonts/SourceSansPro-Black.ttf);
+}
+
+@font-face {
+    font-family: 'sourceSansBold';
+    src: url(/assets/fonts/CinzelDecorative-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'sourceSansLight';
+    src: url(/assets/fonts/SourceSansPro-Light.ttf);
+}
+
+@font-face {
+    font-family: 'sourceSansBlackItalic';
+    src: url(/assets/fonts/SourceSansPro-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: 'sourceSansItalic';
+    src: url(/assets/fonts/SourceSansPro-Italic.ttf);
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Estilos del hero container */
+
+.hero {
+
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+}
+
+
+/* Estilos de las cards */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: calc(33.33% - 10px);
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+    flex: 1 0 calc(33.33% - 20px);
+    margin: 10px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.card p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #777;
+}
+
+.containerMain1 {
+
+    padding: 50px 0;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.containerSection1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+
+}
+
+.containerSection1 h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.containerSection1 img {
+    width: 50%;
+    height: auto;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.containerSection1 p {
+    width: 50%;
+    padding: 0 20px;
+    font-family: "cinzelBlack";
+}
+
+
+.VersaceLogo {
+    width: 100px;
+    height: auto;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: cinzelRegular;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cinzelRegular;
+    background-image: url(/assets/images/popeCamperonEstilaso.jpg);
+
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+nav {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 19px;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+    background-color: #ccc;
+    margin-top: 40px;
+    width: 50%;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Para pantallas de celulares */
+@media only screen and (max-width: 767px) {
+    .containerSection1 img {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .containerSection1 p {
+        width: 100%;
+    }
+
+    nav ul {
+        gap: 50px;
+        font-size: 16px;
+    }
+}
+
+/* Para pantallas normales */
+@media only screen and (min-width: 768px) {
+    .containerMain1 {
+        padding: 100px 0;
+    }
+
+    .containerSection1 {
+        margin-bottom: 80px;
+    }
+
+    .containerSection1 h2 {
+        font-size: 3rem;
+    }
+
+    .containerSection1 img {
+        width: 50%;
+        border-radius: 40px 40px 0 0;
+    }
+
+    .containerSection1 p {
+        width: 50%;
+        padding: 0 40px;
+    }
+
+    nav ul {
+        gap: 100px;
+        font-size: 20px;
+    }
+}
